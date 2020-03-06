@@ -1,26 +1,21 @@
 {
-  "name": "untitled1",
+  "name": "Board-pankaj",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js "
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.3",
-    "morgan": "^1.9.1",
-    "twilio": "^3.39.4"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.2"
+    "antd": "^3.26.12",
+    "axios": "^0.19.2",
+    "next": "^9.2.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
   }
 }

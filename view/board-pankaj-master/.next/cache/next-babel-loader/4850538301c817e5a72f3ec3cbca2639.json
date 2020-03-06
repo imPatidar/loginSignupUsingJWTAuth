@@ -1,1 +1,0 @@
-{"ast":null,"code":"var __jsx = React.createElement;\nimport SignupLayout from \"../Layouts/SignupLayout\";\nimport Signup from '../components/signup';\nimport React from 'react';\n\nvar Home = function Home() {\n  return __jsx(SignupLayout, null, __jsx(Signup, null));\n};\n\nexport default Home;","map":null,"metadata":{},"sourceType":"module"}

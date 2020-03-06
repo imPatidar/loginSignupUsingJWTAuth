@@ -1,1 +1,0 @@
-{"ast":null,"code":"class AuthRepo {\n  constructor() {\n    this.apiEndpoint = \"https://boardinf.herokuapp.com\";\n    this.login = this.apiEndpoint + '/users/login';\n    this.signup = this.apiEndpoint + '/users/signup';\n    this.contacts = this.apiEndpoint + '/contacts/all';\n  }\n\n}\n\nexport default AuthRepo;","map":null,"metadata":{},"sourceType":"module"}
