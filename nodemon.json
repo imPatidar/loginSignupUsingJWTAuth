@@ -1,0 +1,7 @@
+{
+    "env":{
+        "MONGO_ATLAS_PW": "testmongo",
+        "PORT": 8080,
+        "JWT_SECRET_KEY": "jwtsecretkey"
+    }
+}

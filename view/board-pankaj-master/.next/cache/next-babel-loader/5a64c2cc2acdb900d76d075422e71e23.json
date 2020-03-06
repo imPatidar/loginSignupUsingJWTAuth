@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport MainLayout from \"../Layouts/MainLayout\";\nimport Login from '../components/login';\nimport React from 'react';\n\nconst Home = () => {\n  return __jsx(MainLayout, null, __jsx(Login, null));\n};\n\nexport default Home;","map":null,"metadata":{},"sourceType":"module"}
